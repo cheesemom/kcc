@@ -728,14 +728,20 @@ span.blue {
     display: flex;
 }
 
+.row_flex {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
 .news .movie {
-    width: 55%;
+    width: 50%;
 }
 
 table.news_table {
     border-collapse: collapse;
     text-align: left;
-    height: 250px;
     line-height: 50px;
 }
 
@@ -755,20 +761,17 @@ table.news_table i {
 }
 
 table.news_table thead th {
-    padding: 0 0 0 15px;
     color: #0D4795;
     border-bottom: 2.5px solid #0D4795;
 }
 
 table.news_table tbody td {
-    padding: 0 0 0 15px;
     border-bottom: 1px solid #e1e1e1;
-    font-size: 13px;
+    font-size: 12px;
     width: 400px;
 }
 
 table.news_table tbody th {
-    padding: 0 15px 0 0;
     border-bottom: 1px solid #e1e1e1;
     font-size: 11px;
     font-weight: 300;
