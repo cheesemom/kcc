@@ -729,10 +729,10 @@ span.blue {
 }
 
 .row_flex {
-    width: 1250px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .news .movie {
